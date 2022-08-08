@@ -1,0 +1,19 @@
+package BreakOutActivity;
+
+public class Program_2 {
+	public static void main (String args [])
+	{
+		int numberOfStudents = 0;
+		if(numberOfStudents<0) {
+			System.out.println("No of Students can't be negative");
+			
+		}
+		else if(numberOfStudents>0) {
+			System.out.println(numberOfStudents + " students are Present in class");
+		}
+		else {
+			System.out.println("All are absent");
+		}
+	}
+
+}
