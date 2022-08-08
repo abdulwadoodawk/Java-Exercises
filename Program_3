@@ -1,0 +1,24 @@
+package BreakOutActivity;
+
+public class Program_3 {
+
+	public static void main(String[] args) {
+		int num1 = 3;
+		if (num1<0 && (num1%7==0)) {
+            System.out.println("The given number is negative and its divisible by 7");
+	}
+		else if(num1<0 && (num1%7!=0)) {
+			System.out.println("The given number is negative but not divisible by 7");
+		}
+		else if(num1>0 && (num1%7==0)) {
+			System.out.println("The given number is positive and its divisible by 7");
+		}
+		else if(num1>0 && (num1%7!=0)) {
+			System.out.println("The given number is positive but not divisible by 7");
+		}
+		else {
+			System.out.println("The given number is 0");
+		}
+	}
+
+}
