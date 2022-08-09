@@ -1,0 +1,22 @@
+package BreakOutActivity;
+
+public class Program_5 {
+
+	public static void main(String[] args) {
+		int marks = 22;
+		if (marks%2==0) {
+			if (marks>=2 &&(marks<=5)) {
+				System.out.println("Not Weired");
+			}
+			else if (marks>=6 &&(marks<=20)) {
+				System.out.println("Weired");
+			}
+			else if (marks>20){
+				System.out.println("Not Weired");
+			}
+		}
+		else {
+			System.out.println("Weired");
+		}
+	}
+}
