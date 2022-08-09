@@ -1,0 +1,17 @@
+package BreakOutActivity;
+
+public class Program_4 {
+
+	public static void main(String[] args) {
+	   int num1 = 53;
+	   // check for even
+	   if (num1%2==0) {
+		   System.out.println(num1 + " is a even number");
+	   }
+	   // check for odd
+	   else {
+		   System.out.println(num1 + " is an odd number"); 
+	   }
+	}
+
+}
