@@ -1,0 +1,17 @@
+package BreakOutActivity;
+	import java.util.Scanner;
+	public class Program_8 {
+
+		public static void main(String[] args) {
+			System.out.println("Enter the value of number");
+			Scanner obj = new Scanner(System.in);
+		int number = obj.nextInt();
+		//System.out.println("Enter the value of number:");
+		for (int count= 1;count<=number;count++) {
+			if (count%2==0)
+			System.out.println(count);
+		}
+
+		}
+
+}
