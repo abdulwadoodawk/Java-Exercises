@@ -1,0 +1,30 @@
+package BreakOutActivity;
+//import java.util.Scanner;
+public class Program_6 {
+
+	public static void main(String[] args) {
+		//Scanner obj = new Scanner(System.in);
+		//int values = obj.nextInt();
+		int arr[] = {78,38,-13,-11,6,0};
+		for(int counter=0; counter<=arr.length-1;counter++) {
+			if (arr[counter]>0 && arr[counter]%2== 0 )
+			{
+				System.out.println(arr[counter]+ " number is positive and divisible by two");
+			}
+			else if(arr[counter]>0 && arr[counter]%2!=0) {
+				System.out.println(arr[counter]+"  is +ve and not divisible by two");
+			}
+			else if (arr[counter] % 2 == 0 && arr[ counter] < 0) {
+				System.out.println(arr[counter]+"  is -ve and divisible by two");
+			}
+			else if (arr[counter] % 2 != 0 && arr[ counter] < 0) {
+				System.out.println(arr[counter]+" is -ve and not divisible by two");
+			}
+			else{
+				System.out.print("Given number is neither positive nor negative  because it is Zero");
+			}
+		}
+	}
+
+
+}
