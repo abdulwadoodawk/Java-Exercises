@@ -1,0 +1,17 @@
+package BreakOutActivity;
+import java.util.Scanner;
+public class Program_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the value : " );
+		Scanner obj = new Scanner(System.in);
+        int value = obj.nextInt();
+        int sum = 0;
+for (int ctr=1;ctr<=value;ctr++) {
+	 sum =sum+ctr;
+}
+System.out.println("Sum of numbers is : " + sum);
+	}
+
+}
