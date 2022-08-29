@@ -1,0 +1,22 @@
+package BreakOutActivity;
+import java.util.Scanner;
+public class FactorialPrg {
+
+	public static void main(String[] args) {
+		// TO calculate factorial of a given number
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter the number you want to calculate factorial for : ");
+		int num = obj.nextInt();
+		int factorial = 1;
+		int ctr = num;
+		while(ctr > 1) { //5 4 3 2 
+			factorial *= ctr;   //120
+			ctr-=1;  //1
+		}
+		System.out.println("The factorial of "+num+"! is:"+ factorial);
+		
+		for(int ctr2 = 2; ctr2 <= num; ctr2++) {
+			factorial *= ctr2;
+		}
+		}
+	}
